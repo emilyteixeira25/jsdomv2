@@ -1,10 +1,4 @@
-var books = document.querySelector('book-list li.name');
+const search = document.getElementById('search-books');
+const bookList = document.getElementById('book-list');
 
-Array.from(books).forEach(function(book){
-    book.textContent += '(book title)';
-});
-
-const bookList = document.querySelector('#book-list');
-bookList.innerHTML = '<h2>Books and more books...</h2>';
-bookList.innerHTML += '<p>This is how you add HTML</p>';
-
+console.log(search, bookList);
