@@ -1,4 +1,4 @@
-var books = document.querySelector('#book-list li.name');
+var books = document.querySelector('book-list li.name');
 
 Array.from(books).forEach(function(book){
     book.textContent += '(book title)';
